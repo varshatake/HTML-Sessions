@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Aplication Form</title>
+</head>
+<body>
+    <h3>Employee Application Form</h3>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="fullName">Full Name :</label></td>
+                <td><input type="text" id="fullName" required autofocus maxlength="40"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" required placeholder="Ex. xyz@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td> <label for="phone"> Contact Number </label> </td>
+                <td> <input type="number" id="phone" required> </td>
+            </tr>
+            <tr>
+                <td><label>Profile Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                <input type="radio" name="gender"><label>Male</label>
+                <input type="radio" name="gender"><label>Female</label>
+                <input type="radio" name="gender"><label>Other</label>
+            </td>
+            </tr>
+            <tr>
+                <td><label>Marrital Status</label></td>
+                <td>
+                <input type="radio" name="gender"><label>Yes</label>
+                <input type="radio" name="gender"><label>No</label>
+            </td>
+            </tr>
+            <tr>
+                <td><label>Known Tools & Technology</label></td>
+                <td>
+                    <input type="checkbox"><label>Angular</label>
+                    <input type="checkbox"><label>React</label>
+                    <input type="checkbox"><label>Python</label>
+                    <input type="checkbox"><label>Java</label>
+                    <input type="checkbox"><label>Jenkin</label>
+                    <input type="checkbox"><label>GIT</label>
+                    <input type="checkbox"><label>Database</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Designation</label></td>
+                <td>
+                    <select>
+                        <option>UI Developer</option>
+                        <option>Backend Developer</option>
+                        <option>Full Stack Developer</option>
+                        <option>DevOps Engineer</option>
+                        <option>Tester</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Country</label></td>
+                <td><input type="text" value="India" readonly></td>
+            </tr>
+            <tr>
+                <td><label>Present Address</label></td>
+                <td><textarea rows="10" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Clear</button></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+</html>
